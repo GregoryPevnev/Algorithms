@@ -30,6 +30,10 @@ add_executable(StringToInt casting/string_to_int.cpp)
 add_executable(KDiffHashing numerical/k_diff/k_diff_hashing.cpp)
 add_executable(KDiffSorting numerical/k_diff/k_diff_sorting.cpp)
 
+add_executable(NumberLength numerical/number_length/number_length.cpp)
+
+add_executable(SortedSquares numerical/sorted_squares/sorted_squares.cpp)
+
 add_executable(FourSum numerical/sums/four_sums.cpp)
 add_executable(FourSumsCount numerical/sums/four_sums_count.cpp)
 add_executable(KSum numerical/sums/k_sum.cpp)
