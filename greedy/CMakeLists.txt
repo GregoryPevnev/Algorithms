@@ -56,11 +56,13 @@ add_executable(LongestUniqueSubstringFast sequences/sliding_window/longest_uniqu
 
 # Two Pointers
 
-add_executable(BuyingStocks sequences/two_pointers/buying_stocks.cpp)
+add_executable(BuyingStocks sequences/two_pointers/buying_stocks/buying_stocks.cpp)
 
-add_executable(CanJump sequences/two_pointers/can_jump.cpp)
+add_executable(CanJump sequences/two_pointers/can_jump/can_jump.cpp)
 
-add_executable(DeduplicateArray sequences/two_pointers/deduplicate_array.cpp)
+add_executable(DeduplicateArray sequences/two_pointers/deduplicate_array/deduplicate_array.cpp)
+
+add_executable(DuplicateZeroes sequences/two_pointers/duplicate_zeroes/duplicate_zeroes.cpp)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Sets
