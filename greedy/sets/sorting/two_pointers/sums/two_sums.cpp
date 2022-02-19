@@ -34,11 +34,7 @@ int cmp_nums(const void* num1, const void* num2) {
     return *((int*) num1) - *((int*) num2);
 }
 
-// TODO: Comments
-
-// TODO: Adding Edge-Cases + Iterating until 2 (Three elements present)
-
-int** find_pair_sums(int* array, int length, int target_sum, int* output_size) {
+int** find_two_sums(int* array, int length, int target_sum, int* output_size) {
     pair_t* pair_list_head = NULL;
     int pairs_count = 0;
 
@@ -117,7 +113,7 @@ int main() {
     int target = 6;
 
     int pairs_count;
-    int** pairs = find_pair_sums(nums, nums_length, target, &pairs_count);
+    int** pairs = find_two_sums(nums, nums_length, target, &pairs_count);
 
     for (int i = 0; i < pairs_count; i++) {
         for (int j = 0; j < 2; j++) {

@@ -2,6 +2,21 @@
 
 
 
+N = 100000000
+K = 2000
+
+Max-Heap:
+Time: N + K*logN =>
+Space: N
+
+Min-Heap:
+Time: K + (N-K)*logK*2 =>
+Space: K
+
+Quick-Select + Quick-Sort:
+Time: 2N + KlogK
+
+
 ### Complexity
 
 #### Approach 1. Full Max-Heap

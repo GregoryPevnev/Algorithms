@@ -1,10 +1,13 @@
+// Reference: https://leetcode.com/problems/k-diff-pairs-in-an-array/
+// Tags: Greedy, Counting, Unordered
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
 
 using namespace std;
 
-int find_pairs(vector<int>& nums, int k) {
+int find_k_diff_pairs(vector<int>& nums, int k) {
     unordered_map<int, int> num_freq;
     for (int const &num : nums) num_freq[num]++;
 

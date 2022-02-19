@@ -62,11 +62,20 @@ add_executable(CanJump sequences/two_pointers/can_jump/can_jump.cpp)
 
 add_executable(DeduplicateArray sequences/two_pointers/deduplicate_array/deduplicate_array.cpp)
 
+add_executable(DeduplicateArrayK sequences/two_pointers/deduplicate_array_k/deduplicate_array_k.cpp)
+
 add_executable(DuplicateZeroes sequences/two_pointers/duplicate_zeroes/duplicate_zeroes.cpp)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Sets
 # ----------------------------------------------------------------------------------------------------------------------
+
+# Counting: Numerical - Bounded range for ordering and counting
+
+add_executable(HeightChecking sets/counting/numerical/height_checking/height_checking.cpp)
+add_executable(HeightCheckingOptimized sets/counting/numerical/height_checking/height_checking_optimized.cpp)
+
+add_executable(RelativeSort sets/counting/numerical/relative_sort.cpp)
 
 # Counting: With Ordering
 
@@ -74,6 +83,10 @@ add_executable(DivideArraySequences sets/counting/ordered/divide_array_sequences
 add_executable(DivideArraySequencesOptimal sets/counting/ordered/divide_array_sequences/divide_array_sequences_optimal.cpp)
 
 # Counting: Without Ordering
+
+add_executable(ArraySums sets/counting/unordered/arrays_sums/arrays_sums.cpp)
+
+add_executable(KDiff sets/counting/unordered/k_diff.cpp)
 
 add_executable(SplitArraySequences sets/counting/unordered/split_array_sequences.cpp)
 
@@ -85,8 +98,6 @@ add_executable(LargestNumberCustom sets/sorting/full/largest_number/largest_numb
 add_executable(MaxNonOverlappingIntervals sets/sorting/full/non_overlapping_intervals/max_non_overlapping_intervals.cpp)
 add_executable(MinRemovedOverlappingIntervals sets/sorting/full/non_overlapping_intervals/min_removed_overlapping_intervals.cpp)
 
-add_executable(MinArrowsToBurstBalloons sets/sorting/full/min_arrows_to_burst_balloons.cpp)
-
 add_executable(QueueReconstruction sets/sorting/full/queue_reconstruction.cpp)
 
 # Sorting: Running
@@ -97,3 +108,12 @@ add_executable(RearrangeStringKDistance sets/sorting/running/rearrange_string/re
 add_executable(CourseSchedule sets/sorting/running/course_schedule.cpp)
 
 add_executable(TaskScheduler sets/sorting/running/task_scheduler.cpp)
+
+# Sorting: Two-Pointers
+
+add_executable(FourSum sets/sorting/two_pointers/sums/four_sums.cpp)
+add_executable(KSum sets/sorting/two_pointers/sums/k_sums.cpp)
+add_executable(ThreeSum sets/sorting/two_pointers/sums/three_sums.cpp)
+add_executable(TwoSum sets/sorting/two_pointers/sums/two_sums.cpp)
+
+add_executable(MinArrowsToBurstBalloons sets/sorting/two_pointers/min_arrows_to_burst_balloons.cpp)

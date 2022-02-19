@@ -11,7 +11,7 @@ void duplicate_zeros(vector<int>& nums) {
     int zeroes = 0;
     int non_zeroes = 0;
 
-    // IMPORTANT: Taking shifting-factor into account (NOT counting the out-of-range zeroes)
+    // IMPORTANT: Taking shifting-factor into account (NOT numbers the out-of-range zeroes)
     for (int i = 0; i + zeroes < total_nums; i++) {
         if (nums[i] == 0) {
             zeroes++;

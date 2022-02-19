@@ -12,7 +12,7 @@ using namespace std;
 // Important: Only LOW is actually used - HIGH is just for reusability / extendability (Both COULD be moved)
 
 // Note: Could be using Pairs - Would have to re-map each pair into a vector (Bad for performance)
-vector<vector<int>> find_pair_sums_for(vector<int>& nums, int low, int high, int target_sum) {
+vector<vector<int>> find_two_sums_for(vector<int>& nums, int low, int high, int target_sum) {
     vector<vector<int>> pairs; // Pairs of numbers that produce the correct sum
     int current_sum; // Sum of the current pair of numbers
 
@@ -45,7 +45,7 @@ vector<vector<int>> find_pair_sums_for(vector<int>& nums, int low, int high, int
 }
 
 vector<vector<int>> find_k_sums_for(vector<int>& nums, int low, int high, int target_sum, int k) {
-    if (k == 2) return find_pair_sums_for(nums, low, high, target_sum);
+    if (k == 2) return find_two_sums_for(nums, low, high, target_sum);
 
     vector<vector<int>> all_sums;
 

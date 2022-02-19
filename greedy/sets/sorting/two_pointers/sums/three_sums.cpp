@@ -34,10 +34,6 @@ int cmp_nums(const void* num1, const void* num2) {
     return *((int*) num1) - *((int*) num2);
 }
 
-// TODO: Comments
-
-// TODO: Adding Edge-Cases + Iterating until 2 (Three elements present)
-
 int** find_three_sums(int* array, int length, int target_sum, int* output_size) {
     triple_t* triple_list_head = NULL;
     int triples_count = 0;

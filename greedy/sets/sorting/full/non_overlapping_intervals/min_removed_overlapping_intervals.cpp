@@ -1,5 +1,5 @@
 // Reference: https://leetcode.com/problems/non-overlapping-intervals/
-// Specific solution that uses the same approach as the regular interval-scheduling - counting differently
+// Specific solution that uses the same approach as the regular interval-scheduling - numbers differently
 
 #include <iostream>
 #include <vector>

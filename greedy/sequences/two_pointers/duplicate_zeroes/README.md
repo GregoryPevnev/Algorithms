@@ -50,9 +50,15 @@ the pointers (copying to and from).
 
 ### Patterns
 
+Array-Modification: Performing in-place changes with shifting, moving,
+copying for insertions efficiently using
+* Backwards iteration
+* Two pointers (from the back)
+
 Array-Insertion: Copying / Moving values from back to front in order
-to perform shifting for all the elements of interest - not one by one.
+to perform right-shifting for all the elements of interest,
+and not just one by one.
 
 Two-Pointers:
-1. Copying to the destination / copying to (physical end).
-2. Copying from the source / copying from (logical end).
+1. Copying to the destination - **Sub-Array Head**.
+2. Copying from the source - **Original-Array Head**.

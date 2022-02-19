@@ -34,10 +34,6 @@ int cmp_nums(const void* num1, const void* num2) {
     return *((int*) num1) - *((int*) num2);
 }
 
-// TODO: Comments
-
-// TODO: Better constraints (Iterating until)
-
 int** find_three_sums(int* array, int length, int target_sum, int* output_size) {
     quad_t* quad_list_head = NULL;
     int quads_count = 0;

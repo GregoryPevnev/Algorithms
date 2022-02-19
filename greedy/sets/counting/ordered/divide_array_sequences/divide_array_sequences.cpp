@@ -24,7 +24,7 @@ using namespace std;
 // Non-Optimal Solution: Relying on the fact that the length of sequences is NOT too large
 
 // Approach: While there are still numbers present
-//   1) Taking each LOWEST starting-number and counting the number of sequences it should have (One for each occurrence)
+//   1) Taking each LOWEST starting-number and numbers the number of sequences it should have (One for each occurrence)
 //   2) Checking if there is K - 1 following numbers which can satisfy the current number (Continue ALL the sequences)
 //        a) NO: The result is FALSE
 //        b) YES: Decreasing the count - Have to start less sequences now (If any)
