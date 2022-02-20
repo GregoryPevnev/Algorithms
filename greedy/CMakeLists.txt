@@ -39,11 +39,11 @@ add_executable(RemoveKDigits sequences/monotonic_stack/remove_k_digits.cpp)
 add_executable(SubarraySums sequences/prefix_suffix_sums/subarray_sums/subarray_sums.cpp)
 add_executable(ContinuousSubarraySums sequences/prefix_suffix_sums/subarray_sums/continuous_subarray_sums.cpp)
 
-add_executable(ContinuousSubarray sequences/prefix_suffix_sums/continuous_subarray.cpp)
+add_executable(ContinuousSubarray sequences/prefix_suffix_sums/continuous_subarray/continuous_subarray.cpp)
 
-add_executable(IntervalDistances sequences/prefix_suffix_sums/interval_distances.cpp)
+add_executable(IntervalDistances sequences/prefix_suffix_sums/interval_distances/interval_distances.cpp)
 
-add_executable(MinimumSumsDifference sequences/prefix_suffix_sums/min_sums_difference.cpp)
+add_executable(MinimumSumsDifference sequences/prefix_suffix_sums/min_sums_difference/min_sums_difference.cpp)
 
 # Sliding Window
 
@@ -52,7 +52,12 @@ add_executable(FindAllAnagrams sequences/sliding_window/anagrams/find_all_anagra
 add_executable(FindAllAnagramsSimple sequences/sliding_window/anagrams/find_all_anagrams_simple.cpp)
 
 add_executable(LongestUniqueSubstring sequences/sliding_window/longest_unique_substring/longest_unique_substring.cpp)
-add_executable(LongestUniqueSubstringFast sequences/sliding_window/longest_unique_substring/longest_unique_substring_fast.cpp)
+add_executable(
+        LongestUniqueSubstringFast
+        sequences/sliding_window/longest_unique_substring/longest_unique_substring_fast.cpp
+)
+
+add_executable(MinimumSizeSubarraySum sequences/prefix_suffix_sums/min_size_subarray_sum/min_size_subarray_sum.cpp)
 
 # Two Pointers
 
@@ -92,28 +97,32 @@ add_executable(SplitArraySequences sets/counting/unordered/split_array_sequences
 
 # Sorting: Full
 
+add_executable(CoveredIntervals sets/sorting/full/covered_intervals/covered_intervals.cpp)
+add_executable(CoveredIntervalsOptimized sets/sorting/full/covered_intervals/covered_intervals_optimized.cpp)
+
 add_executable(LargestNumber sets/sorting/full/largest_number/largest_number.cpp)
 add_executable(LargestNumberCustom sets/sorting/full/largest_number/largest_number_custom.cpp)
 
 add_executable(MaxNonOverlappingIntervals sets/sorting/full/non_overlapping_intervals/max_non_overlapping_intervals.cpp)
 add_executable(MinRemovedOverlappingIntervals sets/sorting/full/non_overlapping_intervals/min_removed_overlapping_intervals.cpp)
 
-add_executable(QueueReconstruction sets/sorting/full/queue_reconstruction.cpp)
+add_executable(QueueReconstruction sets/sorting/full/queue_reconstruction/queue_reconstruction.cpp)
 
 # Sorting: Running
 
 add_executable(RearrangeString sets/sorting/running/rearrange_string/rearrange_string.cpp)
 add_executable(RearrangeStringKDistance sets/sorting/running/rearrange_string/rearrange_string_k_distance.cpp)
 
-add_executable(CourseSchedule sets/sorting/running/course_schedule.cpp)
+add_executable(CourseSchedule sets/sorting/running/course_schedule/course_schedule.cpp)
 
-add_executable(TaskScheduler sets/sorting/running/task_scheduler.cpp)
+add_executable(TaskScheduler sets/sorting/running/task_scheduler/task_scheduler.cpp)
 
 # Sorting: Two-Pointers
 
-add_executable(FourSum sets/sorting/two_pointers/sums/four_sums.cpp)
-add_executable(KSum sets/sorting/two_pointers/sums/k_sums.cpp)
-add_executable(ThreeSum sets/sorting/two_pointers/sums/three_sums.cpp)
-add_executable(TwoSum sets/sorting/two_pointers/sums/two_sums.cpp)
+add_executable(FourSums sets/sorting/two_pointers/sums/four_sums.cpp)
+add_executable(KSums sets/sorting/two_pointers/sums/k_sums.cpp)
+add_executable(ThreeSums sets/sorting/two_pointers/sums/three_sums.cpp)
+add_executable(TwoSums sets/sorting/two_pointers/sums/two_sums.cpp)
+add_executable(TwoSumsSorted sets/sorting/two_pointers/sums/two_sums_sorted.cpp)
 
-add_executable(MinArrowsToBurstBalloons sets/sorting/two_pointers/min_arrows_to_burst_balloons.cpp)
+add_executable(MinArrowsToBurstBalloons sets/sorting/two_pointers/min_arrows_to_burst_balloons/min_arrows_to_burst_balloons.cpp)

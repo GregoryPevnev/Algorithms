@@ -21,6 +21,8 @@ add_executable(CookingTimer brute_force/cooking_timer.cpp)
 # Numbers
 # ----------------------------------------------------------------------------------------------------------------------
 
+add_executable(Addition numbers/addition/addition.cpp)
+
 add_executable(NumberLength numbers/number_length/number_length.cpp)
 
 add_executable(StringToInt numbers/string_to_int/string_to_int.cpp)

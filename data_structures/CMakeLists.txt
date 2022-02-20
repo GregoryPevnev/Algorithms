@@ -7,6 +7,13 @@ set(CMAKE_CXX_STANDARD 14)
 # Array
 # ----------------------------------------------------------------------------------------------------------------------
 
+# Modifications
+
+# Reversing Strings
+add_executable(ReverseString arrays/modifications/reverse_string/reverse_string.cpp)
+add_executable(ReverseStringWords arrays/modifications/reverse_string/reverse_string_words.cpp)
+add_executable(ReverseStringWordsOrder arrays/modifications/reverse_string/reverse_string_words_order.cpp)
+
 # Traversal
 
 # Diagonal Traversal
