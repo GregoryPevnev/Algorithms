@@ -44,4 +44,18 @@ add_executable(
 # Linked-Lists
 # ----------------------------------------------------------------------------------------------------------------------
 
-add_executable(LinkedListRotation linked_lists/linked_list_rotation.cpp)
+# TODO: Moving implementations to "Resources" at one point
+
+# Linked-List Implementations
+
+add_executable(SinglyLinkedList linked_lists/linked_list/singly_linked_list/singly_linked_list.cpp)
+
+# Search
+
+add_executable(LinkedListCycle linked_lists/search/cycle_finding/cycle_finding.cpp)
+
+add_executable(RemoveNthElement linked_lists/search/remove_nth_element/remove_nth_element.cpp)
+
+# Modifications
+
+add_executable(LinkedListRotation linked_lists/modifications/rotation/linked_list_rotation.cpp)
